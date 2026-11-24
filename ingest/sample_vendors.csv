@@ -1,0 +1,6 @@
+vendor_id,name,tier,risk_rating,status
+VND-001,Acme Cloud Services Inc.,Tier-1,LOW,ACTIVE
+VND-002,Apex IT Solutions Ltd.,Tier-2,MEDIUM,ACTIVE
+VND-003,Beta Logistics Group,Tier-2,HIGH,UNDER_REVIEW
+VND-004,CyberGuard Systems,Tier-1,LOW,ACTIVE
+VND-005,Zenith Office Supplies,Tier-3,LOW,ACTIVE

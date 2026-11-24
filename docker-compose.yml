@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  oracle-26ai:
+    image: container-registry.oracle.com/database/free:latest
+    container_name: oracle-26ai-free
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PWD=AegisProcure2024!
+      - ORACLE_CHARACTERSET=AL32UTF8
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+      - ./sql/init_schema.sql:/container-entrypoint-initdb.d/init_schema.sql
+    restart: unless-stopped
+
+volumes:
+  oracle_data:
+    driver: local

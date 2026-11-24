@@ -1,0 +1,153 @@
+[
+  {
+    "vendor": {
+      "vendor_id": "VND-001",
+      "name": "Acme Cloud Services Inc.",
+      "tier": "Tier-1",
+      "risk_rating": "LOW",
+      "status": "ACTIVE"
+    },
+    "purchase_orders": [
+      {
+        "po_id": "PO-2024-001",
+        "vendor_id": "VND-001",
+        "amount": 125000.00,
+        "status": "PAID",
+        "order_date": "2024-01-15",
+        "item_description": "Q1 Dedicated Cloud Infrastructure & Managed Kubernetes"
+      },
+      {
+        "po_id": "PO-2024-002",
+        "vendor_id": "VND-001",
+        "amount": 130000.00,
+        "status": "PAID",
+        "order_date": "2024-04-15",
+        "item_description": "Q2 Dedicated Cloud Infrastructure & Managed Kubernetes"
+      },
+      {
+        "po_id": "PO-2024-003",
+        "vendor_id": "VND-001",
+        "amount": 145000.00,
+        "status": "APPROVED",
+        "order_date": "2024-07-10",
+        "item_description": "Q3 Dedicated Cloud Infrastructure with Auto-Scaling additions"
+      }
+    ],
+    "contracts": [
+      {
+        "chunk_id": "CHK-001-SLA",
+        "vendor_id": "VND-001",
+        "clause_type": "SLA",
+        "clause_text": "Section 4.1 (Service Level Agreement): Acme Cloud Services guarantees 99.95% monthly infrastructure availability. If monthly uptime drops between 99.0% and 99.94%, the customer is entitled to a 10% service credit. If uptime drops below 99.0%, a 25% credit applies to that monthly billing cycle. Service credits must be applied within 60 days of claim approval."
+      },
+      {
+        "chunk_id": "CHK-001-LIAB",
+        "vendor_id": "VND-001",
+        "clause_type": "LIABILITY",
+        "clause_text": "Section 8.2 (Limitation of Liability): Neither party shall be liable for indirect, incidental, or consequential damages. Acme Cloud Services' total cumulative liability under this agreement is strictly capped at $1,500,000 USD or the fees paid by customer in the preceding twelve (12) months, whichever is greater."
+      },
+      {
+        "chunk_id": "CHK-001-PAY",
+        "vendor_id": "VND-001",
+        "clause_type": "PAYMENT_TERMS",
+        "clause_text": "Section 3.3 (Payment Terms): Invoices are issued on the first business day of each calendar quarter. Payment terms are Net-30 from invoice receipt date. Undisputed overdue amounts accrue interest at 1.0% per month or the legal statutory maximum."
+      }
+    ]
+  },
+  {
+    "vendor": {
+      "vendor_id": "VND-002",
+      "name": "Apex IT Solutions Ltd.",
+      "tier": "Tier-2",
+      "risk_rating": "MEDIUM",
+      "status": "ACTIVE"
+    },
+    "purchase_orders": [
+      {
+        "po_id": "PO-2024-010",
+        "vendor_id": "VND-002",
+        "amount": 180000.00,
+        "status": "PAID",
+        "order_date": "2024-02-01",
+        "item_description": "Senior DevOps Engineering & Cloud Migration - Milestone 1"
+      },
+      {
+        "po_id": "PO-2024-011",
+        "vendor_id": "VND-002",
+        "amount": 195000.00,
+        "status": "PAID",
+        "order_date": "2024-05-15",
+        "item_description": "Full-Stack Engineers & Database Optimization - Milestone 2"
+      },
+      {
+        "po_id": "PO-2024-012",
+        "vendor_id": "VND-002",
+        "amount": 167000.00,
+        "status": "PENDING",
+        "order_date": "2024-08-20",
+        "item_description": "Additional IT Contractor Hours & Scope Extension"
+      }
+    ],
+    "contracts": [
+      {
+        "chunk_id": "CHK-002-CAP",
+        "vendor_id": "VND-002",
+        "clause_type": "SPEND_CAP",
+        "clause_text": "Section 2.4 (Maximum Contract Value & Spend Cap): The total aggregate billable amount under Master Services Agreement MSA-2024-APX shall not exceed $500,000 USD without prior written amendment signed by the Enterprise Chief Procurement Officer. Any purchase order issued exceeding this cap is non-binding."
+      },
+      {
+        "chunk_id": "CHK-002-PEN",
+        "vendor_id": "VND-002",
+        "clause_type": "PENALTY",
+        "clause_text": "Section 5.3 (Milestone Delays & Penalties): If milestone deliverables are delayed past the scheduled completion date due solely to vendor fault, Apex IT Solutions will incur a liquidated damages penalty of 1% of the milestone PO value per business day, capped at 15% total milestone value."
+      },
+      {
+        "chunk_id": "CHK-002-PAY",
+        "vendor_id": "VND-002",
+        "clause_type": "PAYMENT_TERMS",
+        "clause_text": "Section 4.1 (Invoicing & Terms): Invoices must accompany verified timesheets and signed acceptance certificates. Approved invoices will be paid Net-45 days."
+      }
+    ]
+  },
+  {
+    "vendor": {
+      "vendor_id": "VND-003",
+      "name": "Beta Logistics Group",
+      "tier": "Tier-2",
+      "risk_rating": "HIGH",
+      "status": "UNDER_REVIEW"
+    },
+    "purchase_orders": [
+      {
+        "po_id": "PO-2024-020",
+        "vendor_id": "VND-003",
+        "amount": 85000.00,
+        "status": "PAID",
+        "order_date": "2024-03-01",
+        "item_description": "Q1 Intermodal Freight Transport & Warehousing"
+      },
+      {
+        "po_id": "PO-2024-021",
+        "vendor_id": "VND-003",
+        "amount": 110000.00,
+        "status": "DISPUTED",
+        "order_date": "2024-06-15",
+        "item_description": "Q2 Expedited Air Cargo with Unapproved Fuel Surcharge ($25,000)"
+      }
+    ],
+    "contracts": [
+      {
+        "chunk_id": "CHK-003-FUEL",
+        "vendor_id": "VND-003",
+        "clause_type": "SURCHARGE_CAP",
+        "clause_text": "Schedule B, Clause 3 (Fuel Surcharge Restriction): Fuel surcharges may only be levied when national diesel benchmark exceeds $4.50/gallon, and the maximum allowed fuel surcharge is strictly capped at 5.0% of freight base rate. Surcharges above 5% require formal procurement approval."
+      },
+      {
+        "chunk_id": "CHK-003-SLA",
+        "vendor_id": "VND-003",
+        "clause_type": "SLA",
+        "clause_text": "Section 6.2 (Delivery Timeliness SLA): Beta Logistics guarantees 98.0% on-time delivery across all dispatch lanes. For shipments delayed by more than 48 hours without force majeure notification, a penalty of $2,000 per delayed consignment will be deducted from outstanding payables."
+      }
+    ]
+  }
+]

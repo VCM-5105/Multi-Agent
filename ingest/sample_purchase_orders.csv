@@ -1,0 +1,9 @@
+po_id,vendor_id,amount,status,order_date,item_description
+PO-2024-001,VND-001,125000.00,PAID,2024-01-15,Q1 Dedicated Cloud Infrastructure & Managed Kubernetes
+PO-2024-002,VND-001,130000.00,PAID,2024-04-15,Q2 Dedicated Cloud Infrastructure & Managed Kubernetes
+PO-2024-003,VND-001,145000.00,APPROVED,2024-07-10,Q3 Dedicated Cloud Infrastructure with Auto-Scaling additions
+PO-2024-010,VND-002,180000.00,PAID,2024-02-01,Senior DevOps Engineering & Cloud Migration - Milestone 1
+PO-2024-011,VND-002,195000.00,PAID,2024-05-15,Full-Stack Engineers & Database Optimization - Milestone 2
+PO-2024-012,VND-002,167000.00,PENDING,2024-08-20,Additional IT Contractor Hours & Scope Extension
+PO-2024-020,VND-003,85000.00,PAID,2024-03-01,Q1 Intermodal Freight Transport & Warehousing
+PO-2024-021,VND-003,110000.00,DISPUTED,2024-06-15,Q2 Expedited Air Cargo with Unapproved Fuel Surcharge ($25,000)

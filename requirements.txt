@@ -1,0 +1,22 @@
+# Core Multi-Agent SDK & OpenAI Compatibility
+openai-agents
+pydantic>=2.7.0
+
+# Database & Driver
+oracledb>=2.2.0
+
+# Standalone Tool Server (MCP)
+fastmcp>=0.1.0
+
+# Local CPU Embeddings (Zero-Cloud)
+sentence-transformers>=3.0.0
+torch>=2.2.0
+
+# SQL AST Parsing & Guardrails
+sqlglot>=23.0.0
+
+# Terminal UI & Formatting
+rich>=13.7.0
+
+# Environment & Config
+python-dotenv>=1.0.1
